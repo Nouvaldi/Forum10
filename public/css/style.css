@@ -1,0 +1,67 @@
+:root {
+    --black: rgb(20, 20, 20);
+    --orange: rgb(255, 80, 0);
+    --blue: rgb(0, 110, 255);
+    --white: rgb(240, 240, 240);
+    --gray: rgb(200, 200, 200);
+}
+
+.form-login .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-login input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+
+.form-register .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-register input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-register input[type="email"] {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.form-register input[type="password"] {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.form-register #password-confirm {
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.leftStripe, .rightStripe {
+    height: 1px;
+    width: 30%;
+    background-color: var(--gray);
+}
+
+small {
+    color: var(--gray);
+}
+
+a .bi-google {
+    transition: all ease-in-out 200ms;
+}
+a:hover .bi-google {
+    color: var(--orange);
+}
